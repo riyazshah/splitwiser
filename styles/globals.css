@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.transactionForm {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.paySplit {
+  display: flex;
+}
+
+.userPayLabel {
+  width: 50%;
+}
+
+.userPay {
+  display: flex;
+}
+
+.secondUserPay {
+  padding-left: 10px;
+}

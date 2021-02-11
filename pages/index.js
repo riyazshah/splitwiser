@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
@@ -11,13 +13,19 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Splitwiser!
         </h1>
 
-        <p className={styles.description}>
+        {/* <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
-        </p>
+        </p> */}
+
+        <h3 className={styles.main}>
+          <Link href="/executeTransactions">
+            <a> Click here to get started</a> 
+          </Link>
+        </h3>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

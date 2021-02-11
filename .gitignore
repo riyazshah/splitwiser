@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# Keeping next.config.js private, so this repo won't work out of the box and can only be run locally
+next.config.js
